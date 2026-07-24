@@ -1,3 +1,4 @@
+export {AnswerMap, AnswerRegion, segmentAnswer, groundRegions} from '../src/AnswerMap';
 export {Attachment, AttachmentList} from '../src/AttachmentList';
 export {MessageFeedback} from '../src/MessageFeedback';
 export {MessageSource, SourceList, SourceListItem} from '../src/MessageSource';
@@ -41,3 +42,4 @@ export type {
 export type {ChatProps, ThreadProps, ThreadItemProps, ThreadScrollButtonProps} from '../src/Chat';
 export type {TokenSegmentListOptions} from '../src/TokenSegmentList';
 export type {UserMessageProps} from '../src/UserMessage';
+export type {AnswerMapProps, AnswerRegionProps, AnswerSegment} from '../src/AnswerMap';
