@@ -1,0 +1,18 @@
+schema_version: 1
+fork: salma-remyx/react-spectrum
+observed_landing_zones:
+- path: packages/@react-spectrum/ai/exports/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.05290v1
+    mode: Mode 2 (adapted port)
+    call_site_specifics: "(none) \u2014 no pre-existing internal module invokes AnswerMap;\
+      \ it is a newly exported public library component whose consumers are external\
+      \ importers who drop it into a ThreadItem/Chat content path (libr"
+    branch: chatimage-navigating-long-form-llm-answers-through-interacti
+    timestamp: '2026-07-24T05:30:01Z'
+  last_observed: '2026-07-24T05:30:01Z'
+rejected_shapes: []
+coordination_signals: []
+last_updated: '2026-07-24T05:30:01Z'
